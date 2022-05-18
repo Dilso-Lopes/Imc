@@ -1,4 +1,4 @@
-package com.example.imc;
+package com.corp.imc;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+
+import com.corp.imc.R;
 
 public class SplashActivity extends AppCompatActivity {
     private ImageView imageSplash;

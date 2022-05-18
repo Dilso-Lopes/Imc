@@ -1,9 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+
+    lintOptions{
+        checkReleaseBuilds false
+    }
+
     compileSdkVersion 31
+    buildToolsVersion '30.0.3'
+
     defaultConfig {
-        applicationId "com.example.imc"
+        applicationId "com.corp.imc"
         minSdkVersion 16
         targetSdkVersion 31
         versionCode 1

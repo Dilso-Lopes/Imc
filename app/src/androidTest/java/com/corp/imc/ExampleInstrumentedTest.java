@@ -1,4 +1,4 @@
-package com.example.imc;
+package com.corp.imc;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.imc", appContext.getPackageName());
+        assertEquals("com.corp.imc", appContext.getPackageName());
     }
 }
